@@ -6,7 +6,8 @@
 /* Colors: red (DE1E27) white (FFFFFF) black (000000) green (028f46) */
 
 body {
-    background-color: turquoise; /* temp for verifying connection */
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
