@@ -3,6 +3,16 @@
     11/22/2023
 */
 
+/* TODO: Note to instructor for part 1 submission: I do not have 
+         this complete and I laid down these initial styles just 
+         play with what I thought the layout might look like later */
+
 body {
     background-color: turquoise; /* temp for verifying connection */
 }
+
+section {width: 80%; margin: auto; background-color: #FFFFFF; border: 5px solid #DE1E27; border-radius: 4em 4em 0 0; overflow: hidden;}
+
+section h2 {background-color: #000000; text-align: center; margin: 0;}
+
+section h2 img {max-width: 100%;}
