@@ -3,6 +3,6 @@
     11/22/2023
 */
 
-body {
-    background-color: turquoise; /* temp for verifying connection */
-}
+#contactPageLink {color: #DE1E27;}
+
+#contactPageLink:hover {color: #f73740;}

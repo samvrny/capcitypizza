@@ -1,8 +1,8 @@
 /*
     Samuel Varney
-    11/22/2023
+    12/4/2023
 */
 
-body {
-    background-color: turquoise; /* temp for verifying connection */
-}
+#homePageLink {color: #DE1E27;}
+
+#homePageLink:hover {color: #f73740;}

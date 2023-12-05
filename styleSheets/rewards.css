@@ -3,6 +3,6 @@
     11/22/2023
 */
 
-body {
-    background-color: turquoise; /* temp for verifying connection */
-}
+#rewardsPageLink {color: #DE1E27;}
+
+#rewardsPageLink:hover {color: #f73740;}

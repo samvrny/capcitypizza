@@ -7,9 +7,9 @@
          this complete and I laid down these initial styles just 
          play with what I thought the layout might look like later */
 
-body {
-    background-color: turquoise; /* temp for verifying connection */
-}
+#menuPageLink {color: #DE1E27;}
+
+#menuPageLink:hover {color: #f73740;}
 
 section {width: 80%; margin: auto; background-color: #FFFFFF; border: 5px solid #DE1E27; border-radius: 4em 4em 0 0; overflow: hidden;}
 
