@@ -20,11 +20,10 @@
     float: right;
     width: 40%;
     margin: 1.5em;
-    background-color: #FFFFFF;
     box-shadow: 0 0 1em #000000;
 }
 
-#about h2, section h2 {
+h2 {
     font-size: 3em;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -53,12 +52,13 @@ h3 {
 #promise1 img, #promise2 img, #promise3 img {
     width: 25%;
     margin: 1.5em;
+    box-shadow: 0 0 1em #000000;
 }
 
 #promise1, #promise2, #promise3 {
-    width: 75%;
+    width: 80%;
     margin: auto;
-    padding: 1.5em;
+    overflow: auto;
 }
 
 #promise1 {border: 5px double #DE1E27;}
@@ -76,3 +76,28 @@ h3 {
 #promise3 img {float: right;}
 
 article {clear: both;}
+
+/* Media queries for responsive control */
+
+@media screen and (max-width: 1400px) {
+    #promise1 img, #promise2 img, #promise3 img {width: 40%;}
+}
+
+@media screen and (max-width: 1000px) {
+    #promise1 img, #promise2 img, #promise3 img {width: 50%;}
+
+    #promise1, #promise2, #promise3 {width: 95%;}
+}
+
+@media screen and (max-width: 750px) {
+    #promise1 img, #promise2 img, #promise3 img, #about img {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 70%;
+    }
+
+    #promise1, #promise2, #promise3 {width: 95%;}
+
+    article p {padding: 1.25em;}
+}
