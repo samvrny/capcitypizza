@@ -12,6 +12,19 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.15em;
+    letter-spacing: .15em;
+}
+
+a:hover {
+    color: #DE1E27;
+    text-shadow: 0 0 1em #FFFFFF;
+}
+
 header {
     background-color: #000000;
     text-align: center;
@@ -42,6 +55,31 @@ nav a {
 nav a:hover {color: #DE1E27;}
 
 footer {
+    display: flex;
     background-color: #000000;
     color: #FFFFFF;
+    overflow: auto;
+    justify-content: space-between;
 }
+
+footer address {
+    margin: auto 2em;
+}
+
+footer > a {
+    margin: 1em 0 1em 3em;
+    background-color: #FFFFFF;
+    padding: 1em 2em;
+    border: 4px solid #DE1E27;
+    border-radius: 1em;
+    font-size: 1.4em;
+    color: #DE1E27;
+}
+
+footer > a:hover {
+    border: 4px solid #028f46;
+    color: #028f46;
+}
+
+/* TODO: Remove from main, going to be in specific files */
+img {max-width: 100%;}
