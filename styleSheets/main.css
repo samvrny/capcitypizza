@@ -3,7 +3,7 @@
     12/7/2023
 */
 
-/* Colors: red (DE1E27) white (FFFFFF) black (000000) green (028f46) blue (2D2DFA)*/
+/* Colors: red (DE1E27) white (FFFFFF) black (000000) green (028F46) blue (2D2DFA)*/
 
 body {
     background-image: url("../images/background.png");
@@ -60,6 +60,7 @@ footer {
     color: #FFFFFF;
     overflow: auto;
     justify-content: space-between;
+    clear: both;
 }
 
 footer address {

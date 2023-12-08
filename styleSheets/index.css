@@ -32,7 +32,7 @@
     text-align: center;
 }
 
-#about p {
+article p {
     padding: 1.5em;
     font-size: 1.3em;
     line-height: 1.75em;
@@ -43,3 +43,36 @@
 section {clear: right;}
 
 section article {width: 100%;}
+
+h3 {
+    font-size: 1.75em;
+    margin: 1em 0 1em;
+    text-align: center;
+}
+
+#promise1 img, #promise2 img, #promise3 img {
+    width: 25%;
+    margin: 1.5em;
+}
+
+#promise1, #promise2, #promise3 {
+    width: 75%;
+    margin: auto;
+    padding: 1.5em;
+}
+
+#promise1 {border: 5px double #DE1E27;}
+
+#promise2 {border: 5px double #2D2DFA;}
+
+#promise3 {border: 5px double #028F46}
+
+#promise2, #promise3 {margin-top: 2em;}
+
+#promise1 img {float: right;}
+
+#promise2 img {float: left;}
+
+#promise3 img {float: right;}
+
+article {clear: both;}
