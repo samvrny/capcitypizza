@@ -1,6 +1,6 @@
 /*
     Samuel Varney
-    11/28/2023
+    12/7/2023
 */
 
 /* Colors: red (DE1E27) white (FFFFFF) black (000000) green (028f46) blue (2D2DFA)*/
@@ -81,5 +81,4 @@ footer > a:hover {
     color: #028f46;
 }
 
-/* TODO: Remove from main, going to be in specific files */
 img {max-width: 100%;}
