@@ -12,13 +12,16 @@
     margin: 3em auto;
     overflow: auto;
     background-color: #FFFFFF;
+    border-radius: 2em;
+    box-shadow: 0 0 2em #DE1E27;
 }
 
 #about img {
     float: right;
     width: 40%;
-    padding: 1.5em;
+    margin: 1.5em;
     background-color: #FFFFFF;
+    box-shadow: 0 0 1em #000000;
 }
 
 #about h2, section h2 {
@@ -31,7 +34,8 @@
 
 #about p {
     padding: 1.5em;
-    font-size: 1.25em;
+    font-size: 1.3em;
+    line-height: 1.75em;
 }
 
 #about, section {padding: 2em;}
