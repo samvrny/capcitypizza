@@ -25,77 +25,96 @@
         </header>
 
         <main>
-            <h2>Capitol City Pizza Rewards</h2>
-            <p>Love Capitol City Pizza? Become a member of our rewards program! As a member, each purchase you make at our restaurant earns you points for free pizza. You will also get a chance to have your favorite pizza make it onto our menu as the pizza of the month! Fill out the form below to join our rewards program.</p>
+            <div>
+                <h2>Capitol City Pizza Rewards</h2>
+                <p>Love Capitol City Pizza? Become a member of our rewards program! As a member, each purchase you make at our restaurant earns you points for free pizza. You will also get a chance to have your favorite pizza make it onto our menu as the pizza of the month! Fill out the form below to join our rewards program.</p>
+            </div>
 
             <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
 
-                <label for="firstName">First Name</label>
-                <input type="text" name="firstName" id="firstName" required>
+                <div id="userInfo">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" required>
 
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" id="lastName" required>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" required>
 
-                <label for="phone">Phone</label>
-                <input type="text" name="phone" id="phone" required>
+                    <label for="phone">Phone:</label>
+                    <input type="text" name="phone" id="phone" required>
 
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
 
-                <label>Recieve deals via email?</label>
-                <label for="yes">Yes</label>
-                <input type="radio" name="optIn" id="yes" value="yes">
-                <label for="no">No</label>
-                <input type="radio" name="optIn" id="no" value="no">
+                <div id="emailDeals">
+                    <p>Recieve deals via email?</p>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="optIn" id="yes" value="yes">
+                    <label for="no">No</label>
+                    <input type="radio" name="optIn" id="no" value="no">
+                </div>
 
                 <fieldset>
                     <legend>Tell us your favorite pizza!</legend>
 
                     <!-- Sauces -->
-                    <div>
+                    <section class="toppings">
                         <h3>Sauces</h3>
 
-                        <label for="marinara">Marinara</label>
-                        <input type="checkbox" name="marinara" id="marinara" value="marinara">
-
-                        <label for="pizzaSauce">House Pizza Sauce</label>
-                        <input type="checkbox" name="pizzaSauce" id="pizzaSauce" value="pizzaSauce">
-
-                        <label for="buffalo">Buffalo</label>
-                        <input type="checkbox" name="buffalo" id="buffalo" value="buffalo">
-
-                        <label for="creamyAlfredo">Creamy Alfredo</label>
-                        <input type="checkbox" name="creamyAlfredo" id="creamyAlfredo" value="creamyAlfredo">
-                    </div>
+                        <div>
+                            <label for="marinara">Marinara</label>
+                            <input type="checkbox" name="marinara" id="marinara" value="marinara">
+                        </div>
+                        <div>
+                            <label for="pizzaSauce">House Pizza Sauce</label>
+                            <input type="checkbox" name="pizzaSauce" id="pizzaSauce" value="pizzaSauce">
+                        </div>
+                        <div>
+                            <label for="buffalo">Buffalo</label>
+                            <input type="checkbox" name="buffalo" id="buffalo" value="buffalo">
+                        </div>
+                        <div>
+                            <label for="creamyAlfredo">Creamy Alfredo</label>
+                            <input type="checkbox" name="creamyAlfredo" id="creamyAlfredo" value="creamyAlfredo">
+                        </div>
+                    </section>
 
                     <!-- Cheeses -->
-                    <div>
+                    <section class="toppings">
                         <h3>Cheeses</h3>
                         
-                        <label for="mozzarella"></label>
-                        <input type="checkbox" name="mozzarella" id="mozzarella" value="mozzarella">
-
-                        <label for="bleuCheese">Bleu Cheese</label>
-                        <input type="checkbox" name="bleuCheese" id="bleuCheese" value="bleuCheese">
-
-                        <label for="cheddar">Cheddar</label>
-                        <input type="checkbox" name="cheddar" id="cheddar" value="cheddar">
-
-                        <label for="freshMozzarella">Fresh Mozzarella</label>
-                        <input type="checkbox" name="freshMozzarella" id="freshMozzarella" value="freshMozzarella">
-                        
-                        <label for="colby">Colby</label>
-                        <input type="checkbox" name="colby" id="colby" value="colby">
-
-                        <label for="creamCheese">Cream Cheese</label>
-                        <input type="checkbox" name="creamCheese" id="creamCheese" value="creamCheese">
-                        
-                        <label for="provolone">Provolone</label>
-                        <input type="checkbox" name="provolone" id="provolone" value="provolone">
-                    </div>
+                        <div>
+                            <label for="mozzarella">Mozzarella</label>
+                            <input type="checkbox" name="mozzarella" id="mozzarella" value="mozzarella">
+                        </div>
+                        <div>
+                            <label for="bleuCheese">Bleu Cheese</label>
+                            <input type="checkbox" name="bleuCheese" id="bleuCheese" value="bleuCheese">
+                        </div>
+                        <div>
+                            <label for="cheddar">Cheddar</label>
+                            <input type="checkbox" name="cheddar" id="cheddar" value="cheddar">
+                        </div>
+                        <div>
+                            <label for="freshMozzarella">Fresh Mozzarella</label>
+                            <input type="checkbox" name="freshMozzarella" id="freshMozzarella" value="freshMozzarella">
+                        </div>
+                        <div>
+                            <label for="colby">Colby</label>
+                            <input type="checkbox" name="colby" id="colby" value="colby">
+                        </div>
+                        <div>
+                            <label for="creamCheese">Cream Cheese</label>
+                            <input type="checkbox" name="creamCheese" id="creamCheese" value="creamCheese">
+                        </div>
+                        <div>
+                            <label for="provolone">Provolone</label>
+                            <input type="checkbox" name="provolone" id="provolone" value="provolone">
+                        </div>
+                    </section>
 
                     <!-- Meats -->
-                    <div>
+                    <section>
                         <h3>Meats</h3>
 
                         <label for="pepperoni">Pepperoni</label>
@@ -118,10 +137,10 @@
                         
                         <label for="houseMeatballs">House Meatballs</label>
                         <input type="checkbox" name="houseMeatballs" id="houseMeatballs" value="houseMeatballs">
-                    </div>
+                    </section>
 
                     <!-- Vegetables -->
-                    <div>
+                    <section>
                         <h3>Vegetables</h3>
 
                         <label for="garlic">Garlic</label>
@@ -162,7 +181,7 @@
                         
                         <label for="jalapenos">Jalapenos</label>
                         <input type="checkbox" name="jalapenos" id="jalapenos" value="jalapenos">
-                    </div>
+                    </section>
                 </fieldset>
 
                 <div>
