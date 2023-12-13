@@ -72,4 +72,5 @@ section h3 {
 section div {
     display: flex;
     justify-content: space-between;
+    padding: .25em;
 }
