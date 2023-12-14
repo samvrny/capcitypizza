@@ -25,45 +25,49 @@
         </header>
 
         <main>
-            <section>
-                <h2>Hours and Location:</h2>
+            <section class="mainContainers">
+                <h2><i>Hours and Location:</i></h2>
 
-                <section>
-                    <h3>Location:</h3>
-                    <p>400 W Washington Ave.</p>
-                    <p>Madison, WI</p>
-                    <p>53703</p>
-                </section>
+                <div>
+                    <section class="locationInfo">
+                        <h3>Location:</h3>
+                        <p>400 W Washington Ave.</p>
+                        <p>Madison, WI</p>
+                        <p>53703</p>
+                        <p>Phone: <a href="tel:+16084828000">608 - 482 - 8000</a></p>
 
-                <section>
-                    <h3>Hours:</h3>
-                    <p>Monday - Friday 11AM - 12AM</p>
-                    <p>Saturday 10AM - 2AM</p>
-                    <p>Sunday: 10AM - 10PM</p>
-                </section>
+                    </section>
 
-                <p>Phone: <a href="tel:+16086084828000">608 - 482 - 8000</a></p>
+                    <section class="locationInfo">
+                        <h3>Hours:</h3>
+                        <p>Monday - Friday 11AM - 12AM</p>
+                        <p>Saturday 10AM - 2AM</p>
+                        <p>Sunday: 10AM - 10PM</p>
+                    </section>
+                </div>
+
             </section>
 
-            <h2>Let the people speak!</h2>
-            <p>Your opinion matters to us at Capitol City Pizza. Send us a message with your contact information using the form below and we will get back to you as soon as we can!</p>
+            <section id="peopleSpeak" class="mainContainers">
+                <h2><i>Let the people speak!</i></h2>
+                <p>Your opinion matters to us at Capitol City Pizza. Send us a message with your contact information using the form below and we will get back to you as soon as we can!</p>
+            </section>
 
             <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
-                <i><span>*</span> - Indicates a required field</i>
 
-                <label for="name">Name: <span>*</span></label>
+                <label for="name">Name:</label>
                 <input type="text" name="name" id="name" required>
                 
-                <label for="email">Email: <span>*</span></label>
+                <label for="email">Email:</label>
                 <input type="text" name="email" id="email" required>
                 
                 <label for="phone">Phone Number:</label>
                 <input type="text" name="phone" id="phone">
                 
-                <label for="subject">Subject: <span>*</span></label>
+                <label for="subject">Subject:</label>
                 <input type="text" name="subject" id="subject" required>
 
-                <label for="message">Your Message: <span>*</span></label>
+                <label for="message">Your Message:</label>
                 <textarea name="message" id="message"></textarea required>
 
                 <input type="submit">
