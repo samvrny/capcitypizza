@@ -21,7 +21,16 @@ section p, dd, td, th {
     line-height: 1.75em;
 }
 
-section p {padding: 1em;}
+i {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+section p {
+    padding: .5em;
+    width: 75%;
+    margin: 0 auto;
+}
 
 h2 {
     width: 80%; 
@@ -59,7 +68,7 @@ dd {margin: .5em 0 0;}
 
 table {
     border-collapse: collapse;
-    margin: 0 auto;
+    margin: 0 auto 2em;
 }
 
 td {
@@ -90,3 +99,5 @@ th {
 #sideSection table {margin: 0 auto 3em;}
 
 #specialTable td {border-bottom: 2px solid #DE1E27;}
+
+#sandwichSection p, #sideSection p {text-align: center;}
