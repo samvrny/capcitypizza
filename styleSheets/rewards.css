@@ -7,9 +7,31 @@
 
 #rewardsPageLink:hover {color: #f73740;}
 
+article {
+    width: 60%;
+    background-color: #FFFFFF;
+    margin: 2em auto 3em;
+    padding: 2em;
+    box-shadow: 0 0 2em #DE1E27;
+    border-radius: .5em;
+}
+
+article h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    letter-spacing: .15em;
+    text-align: center;
+}
+
+article p {
+    padding: 1.5em;
+    font-size: 1.3em;
+    line-height: 1.75em;
+}
+
 form {
     background-color: #DDC1A2;
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding: 2em;
     border-radius: .5em;
@@ -42,6 +64,7 @@ form {
 fieldset {
     background-color: #FFFFFF;
     text-align: center;
+    border: 2px solid #DE1E27;
 }
 
 legend {
@@ -74,3 +97,10 @@ section div {
     justify-content: space-between;
     padding: .25em;
 }
+
+input[type="checkbox"], input[type="radio"] {
+    cursor: pointer;
+    height: 1.25em;
+    width: 1.25em;
+}
+
