@@ -3,7 +3,6 @@
     12/14/2023
 */
 
-
 #menuPageLink {color: #DE1E27;}
 
 #menuPageLink:hover {color: #f73740;}
@@ -17,11 +16,12 @@ section {
     padding: 2em;
 }
 
-section p {
-    padding: 1em;
+section p, dd, td, th {
     font-size: 1.3em;
     line-height: 1.75em;
 }
+
+section p {padding: 1em;}
 
 h2 {
     width: 80%; 
@@ -34,7 +34,47 @@ h2 {
 
 h2 img {max-width: 100%;}
 
-#pizzaSection h3 {
-    color: #DE1E27;
+section h3, dt, th {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+section h3 {
     text-align: center;
+    font-size: 3em;
+    letter-spacing: .1em;
 }
+
+dl {margin: 0 2em;}
+
+dt {
+    font-size: 2em;
+    margin: 1em 0 0;
+}
+
+dd {margin: .5em 0 0;}
+
+#pizzaSection h3, #sideSection h3, #pizzaSection dt, #pizzaSection th, #sideSection th {color: #DE1E27;}
+
+#wingSection h3, #wingSection th {color: #2D2DFA;}
+
+#sandwichSection h3, #sandwichSection dt, #sandwichSection th {color: #028F46;}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    padding: .5em 1em;
+    font-weight: bold;
+}
+
+th {
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    font-size: 2em;
+    letter-spacing: .1em;
+}
+
+#pizzaSection table {border: 4px solid #DE1E27;}
+
+#pizzaSection td {border-right: 2px solid #DE1E27;}
+
