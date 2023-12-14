@@ -72,9 +72,21 @@ th {
     border-right: 4px solid;
     font-size: 2em;
     letter-spacing: .1em;
+    padding: .5em 1em;
 }
 
-#pizzaSection table {border: 4px solid #DE1E27;}
+#pizzaSection table, #sideSection table {border: 4px solid #DE1E27;}
 
-#pizzaSection td {border-right: 2px solid #DE1E27;}
+#pizzaSection td, #sideSection td {border-right: 2px solid #DE1E27;}
 
+#wingSection table {border: 4px solid #2D2DFA}
+
+#wingSection td {border-right: 2px solid #2D2DFA}
+
+#sandwichSection table {border: 4px solid #028F46}
+
+#sandwichSection td {border-right: 2px solid #028F46}
+
+#sideSection table {margin: 0 auto 3em;}
+
+#specialTable td {border-bottom: 2px solid #DE1E27;}
