@@ -1,18 +1,40 @@
 /*
     Samuel Varney
-    11/22/2023
+    12/14/2023
 */
 
-/* TODO: Note to instructor for part 1 submission: I do not have 
-         this complete and I laid down these initial styles just 
-         play with what I thought the layout might look like later */
 
 #menuPageLink {color: #DE1E27;}
 
 #menuPageLink:hover {color: #f73740;}
 
-section {width: 80%; margin: auto; background-color: #FFFFFF; border: 5px solid #DE1E27; border-radius: 4em 4em 0 0; overflow: hidden;}
+section {
+    width: 80%; 
+    margin: 0 auto 4em; 
+    background-color: #FFFFFF; 
+    border-radius: 0 0 .5em .5em; 
+    overflow: hidden;
+    padding: 2em;
+}
 
-section h2 {background-color: #000000; text-align: center; margin: 0;}
+section p {
+    padding: 1em;
+    font-size: 1.3em;
+    line-height: 1.75em;
+}
 
-section h2 img {max-width: 100%;}
+h2 {
+    width: 80%; 
+    background-color: #000000; 
+    text-align: center; 
+    margin: 4em auto 0;
+    padding: 1.35em;
+    border-radius: 3.5em 3.5em 0 0;
+}
+
+h2 img {max-width: 100%;}
+
+#pizzaSection h3 {
+    color: #DE1E27;
+    text-align: center;
+}
