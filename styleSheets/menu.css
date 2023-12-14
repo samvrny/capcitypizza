@@ -16,10 +16,12 @@ section {
     padding: 2em;
 }
 
-section p, dd, td, th {
+section p, dd, td, th, li {
     font-size: 1.3em;
     line-height: 1.75em;
 }
+
+td li {font-size: 1em;}
 
 i {
     font-weight: bold;
@@ -101,3 +103,14 @@ th {
 #specialTable td {border-bottom: 2px solid #DE1E27;}
 
 #sandwichSection p, #sideSection p {text-align: center;}
+
+#sauces {
+    width: 50%;
+    margin: 0 auto 3em;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sauces ul {list-style-type: none;}
