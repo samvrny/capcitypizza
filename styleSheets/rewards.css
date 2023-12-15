@@ -111,10 +111,14 @@ input[type="checkbox"], input[type="radio"] {
     display: block;
 }
 
-@media screen and (max-width: 1000px) {
-    form, article {width: 90%;}
+@media screen and (max-width: 1350px) {
+    form, article {width: 80%;}
     
     form, article, #userInfo, section {box-sizing: border-box;}
+}
+
+@media screen and (max-width: 1000px) {
+    form, article {width: 90%;}
 }
 
 @media screen and (max-width: 750px) {
