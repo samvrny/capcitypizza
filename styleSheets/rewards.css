@@ -69,6 +69,7 @@ select {
     text-align: center;
     margin: 1.25em 0;
     font-size: 1em;
+    font-weight: bold;
 }
 
 fieldset {
