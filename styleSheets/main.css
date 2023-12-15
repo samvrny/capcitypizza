@@ -127,6 +127,20 @@ footer > a:hover, .callToOrder a:hover {
     border-radius: 1em;
 }
 
+@media screen and (max-width: 900px) {
+    footer {flex-direction: column;}
+
+    footer > a {
+        box-sizing: border-box;
+        width: 300px;
+        margin: 2em auto;
+        padding: 1em 2em;
+        text-align: center;
+    }
+
+    footer address {margin: 1em auto 3em;}
+}
+
 @media screen and (max-width: 800px) {
     nav a {
         display: block;
