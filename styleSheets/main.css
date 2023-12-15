@@ -80,7 +80,21 @@ form {box-shadow: 0 0 2em #DE1E27;}
     margin: 2em auto 0;
 }
 
-/* input[type=] */
+input[type="submit"], input[type="reset"] {
+    background-color: #DE1E27;
+    font-size: 2em;
+    padding: .35em 1em;
+    margin: 0 1em;
+    border: 3px solid #DE1E27;
+    border-radius: .25em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
 
 footer {
     display: flex;
