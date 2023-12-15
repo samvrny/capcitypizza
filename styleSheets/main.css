@@ -127,4 +127,10 @@ footer > a:hover, .callToOrder a:hover {
     border-radius: 1em;
 }
 
-
+@media screen and (max-width: 640px) {
+    input[type="submit"], input[type="reset"] {
+        display: block;
+        width: 200px;
+        margin: 1em auto 0;
+    }
+}

@@ -92,3 +92,17 @@ textarea {
     padding: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+@media screen and (max-width: 1000px) {
+    form, .mainContainers {width: 90%;}
+
+    section div {
+        flex-direction: column;
+    }
+
+    .locationInfo {text-align: center;}
+}
+
+@media screen and (max-width: 725px) {
+
+}
