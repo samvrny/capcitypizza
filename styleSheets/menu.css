@@ -115,6 +115,13 @@ th {
 
 #sauces ul {list-style-type: none;}
 
+.callToOrder p, .callToOrder i {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.callToOrder a {font-size: 30px;}
+
 @media screen and (max-width: 1050px) {
     section {width: 90%;}
 
