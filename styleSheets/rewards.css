@@ -56,10 +56,19 @@ form {
     padding: 2em 2em 0;
 }
 
-#emailDeals {
+#emailDeals, #rewardsColor {
     padding: 0 2em 2em;
     width: 50%;
     font-size: 1.25em;
+    font-weight: bold;
+}
+
+select {
+    width: 250px;
+    padding: .25em;
+    text-align: center;
+    margin: 1.25em 0;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -126,6 +135,10 @@ input[type="checkbox"], input[type="radio"] {
         width: 100%;
         border-radius: 0;
     }
+
+    #rewardsColor label {display: block;}
+
+    #rewardsColor {width: 75%;}
 }
 
 @media screen and (max-width: 640px) {

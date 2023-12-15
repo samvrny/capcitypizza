@@ -43,7 +43,7 @@ h2 {
     border-radius: 3.5em 3.5em 0 0;
 }
 
-h2 img {max-width: 100%;}
+h2 img {width: 100%;}
 
 .menuSection h3, dt, th {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 

@@ -40,8 +40,8 @@ header h1 {
 }
 
 header img {
-    height: 250px;
-    width: auto;
+    height: auto;
+    width: 20%;
 }
 
 nav a {
@@ -128,6 +128,8 @@ footer > a:hover, .callToOrder a:hover {
 }
 
 @media screen and (max-width: 900px) {
+    header img {width: 40%;}
+
     footer {flex-direction: column;}
 
     footer > a {
@@ -145,11 +147,15 @@ footer > a:hover, .callToOrder a:hover {
     nav a {
         display: block;
         margin: 1em auto;
-        font-size: 3.5em;
+        font-size: 3em;
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40em) {
+    header h1 {font-size: 2.75em;}
+
+    nav a {font-size: 2.5em;}
+
     input[type="submit"], input[type="reset"] {
         display: block;
         width: 200px;
