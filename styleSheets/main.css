@@ -73,6 +73,15 @@ nav a:hover {color: #DE1E27;}
     padding: .5em 1em
 }
 
+form {box-shadow: 0 0 2em #DE1E27;}
+
+.submitButtons {
+    text-align: center;
+    margin: 2em auto 0;
+}
+
+/* input[type=] */
+
 footer {
     display: flex;
     background-color: #000000;
@@ -104,4 +113,4 @@ footer > a:hover, .callToOrder a:hover {
     border-radius: 1em;
 }
 
-form {box-shadow: 0 0 2em #DE1E27;}
+
