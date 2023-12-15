@@ -63,6 +63,7 @@ nav a:hover {color: #DE1E27;}
     border-radius: 1em;
     text-align: center;
     font-size: 1.5em;
+    box-shadow: 0 0 2em #DE1E27;
 }
 
 .callToOrder a {
