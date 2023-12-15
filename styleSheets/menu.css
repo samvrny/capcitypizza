@@ -7,7 +7,7 @@
 
 #menuPageLink:hover {color: #f73740;}
 
-section {
+.menuSection {
     width: 80%; 
     margin: 0 auto 4em; 
     background-color: #FFFFFF; 
@@ -16,19 +16,19 @@ section {
     padding: 2em;
 }
 
-section p, dd, td, th, li {
+.menuSection p, dd, td, th, li {
     font-size: 1.3em;
     line-height: 1.75em;
 }
 
 td li {font-size: 1em;}
 
-i {
+.menuSection i {
     font-weight: bold;
     font-size: 1.25em;
 }
 
-section p {
+.menuSection p {
     padding: .5em;
     width: 75%;
     margin: 0 auto;
@@ -45,9 +45,9 @@ h2 {
 
 h2 img {max-width: 100%;}
 
-section h3, dt, th {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.menuSection h3, dt, th {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 
-section h3 {
+.menuSection h3 {
     text-align: center;
     font-size: 3em;
     letter-spacing: .1em;
@@ -115,27 +115,27 @@ th {
 
 #sauces ul {list-style-type: none;}
 
-.callToOrder p, .callToOrder i {
+/* .callToOrder p, .callToOrder i {
     font-size: 24px;
     font-weight: 400;
 }
 
-.callToOrder a {font-size: 30px;}
+.callToOrder a {font-size: 30px;} */
 
 @media screen and (max-width: 1050px) {
-    section {width: 90%;}
+    .menuSection {width: 90%;}
 
     h2 {width: 90%;}
 }
 
 @media screen and (max-width: 925px) {
-    section {
+    .menuSection {
         width: 100%; 
         padding: 0;
         border-radius: 0;
     }
 
-    section p {margin: 2em auto;}
+    .menuSection p {margin: 2em auto;}
 
     h2 {
         width: 100%;
