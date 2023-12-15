@@ -112,7 +112,7 @@ textarea {
 }
 
 @media screen and (max-width: 500px) {
-    input[type="text"] {width: 90%;}
+    input[type="text"] {width: 80%;}
 
     #phoneNumberLink {font-size: 1.5em;}
 }

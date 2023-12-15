@@ -110,3 +110,28 @@ input[type="checkbox"], input[type="radio"] {
     margin: 3em auto;
     display: block;
 }
+
+@media screen and (max-width: 1000px) {
+    form, article {width: 90%;}
+    
+    form, article, #userInfo, section {box-sizing: border-box;}
+}
+
+@media screen and (max-width: 750px) {
+    form, article {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #userInfo {width: 100%;}
+
+    #userInfo input {width: 90%;}
+
+    section {width: 90%;}
+
+    input[type="checkbox"] {margin-right: 2em;}
+
+    legend {font-size: 1.5em;}
+}
