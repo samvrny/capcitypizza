@@ -43,15 +43,24 @@
                     <input type="text" name="phone" id="phone" required>
 
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" required>
+                    <input type="text" name="email" id="email" required>
                 </div>
 
                 <div id="emailDeals">
                     <p>Recieve deals via email?</p>
                     <label for="yes">Yes</label>
-                    <input type="radio" name="optIn" id="yes" value="yes">
+                    <input type="radio" name="optIntoEmailDeals" id="yes" value="yes">
                     <label for="no">No</label>
-                    <input type="radio" name="optIn" id="no" value="no">
+                    <input type="radio" name="optIntoEmailDeals" id="no" value="no">
+                </div>
+
+                <div id="rewardsColor">
+                    <label for="rewardsCardColor">Please select a color for your rewards card:</label>
+                    <select name="rewardsCardColor" id="rewardsCardColor">
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                    </select>
                 </div>
 
                 <fieldset>
