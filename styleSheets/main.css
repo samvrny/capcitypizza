@@ -40,8 +40,8 @@ header h1 {
 }
 
 header img {
-    height: 250px;
-    width: auto;
+    height: auto;
+    width: 20%;
 }
 
 nav a {
@@ -128,6 +128,8 @@ footer > a:hover, .callToOrder a:hover {
 }
 
 @media screen and (max-width: 900px) {
+    header img {width: 40%;}
+
     footer {flex-direction: column;}
 
     footer > a {
@@ -145,7 +147,7 @@ footer > a:hover, .callToOrder a:hover {
     nav a {
         display: block;
         margin: 1em auto;
-        font-size: 3.5em;
+        font-size: 3em;
     }
 }
 
