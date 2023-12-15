@@ -133,4 +133,13 @@ footer > a:hover, .callToOrder a:hover {
         width: 200px;
         margin: 1em auto 0;
     }
+
+    .callToOrder {
+        box-sizing: border-box; 
+        width: 100%;
+        border: none;
+        border-radius: 0;
+    }
+
+    .callToOrder a {width: 90%;}
 }

@@ -103,6 +103,16 @@ textarea {
     .locationInfo {text-align: center;}
 }
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 750px) {
+    form, .mainContainers {
+        box-sizing: border-box;
+        width: 100%;
+        border-radius: 0;
+    }
+}
 
+@media screen and (max-width: 500px) {
+    input[type="text"] {width: 90%;}
+
+    #phoneNumberLink {font-size: 1.5em;}
 }
