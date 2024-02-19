@@ -77,8 +77,6 @@ h3 {
 
 article {clear: both;}
 
-/* Media queries for responsive control */
-
 @media screen and (max-width: 1400px) {
     #promise1 img, #promise2 img, #promise3 img {width: 40%;}
 }
