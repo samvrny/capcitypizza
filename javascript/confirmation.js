@@ -1,10 +1,7 @@
-function submit(event) {
-    event.preventDefault();
+function submit() {
+    let form = document.getElementById("confirmationForm");
 
-    // Redirect to the confirmation page
-    window.location.href = 'confirmation.html';
+    form.preventDefault();
 
-    console.log("Hello World");
-
-    return false;
+    console.log("Hello World")
 }
